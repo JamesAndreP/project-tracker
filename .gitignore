@@ -1,0 +1,84 @@
+# ==========================================
+# Dependencies
+# ==========================================
+
+frontend/node_modules/
+backend/vendor/
+
+# ==========================================
+# Environment files / secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Laravel
+# ==========================================
+
+backend/storage/*.key
+backend/storage/app/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/testing/*
+backend/storage/framework/views/*
+backend/storage/logs/*
+
+backend/bootstrap/cache/*
+backend/public/storage
+
+# Laravel testing / coverage
+.phpunit.result.cache
+coverage/
+
+# ==========================================
+# Vue / Node
+# ==========================================
+
+frontend/dist/
+frontend/.vite/
+frontend/.nuxt/
+frontend/.output/
+
+# npm
+frontend/.npm/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+*.iml
+
+# ==========================================
+# OS files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+
+backend/.env
+frontend/.env
